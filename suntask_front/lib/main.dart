@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:sol_s_application1/routes/app_routes.dart';
+import 'package:suntask_front/routes/app_routes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
