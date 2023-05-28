@@ -2,10 +2,10 @@ import '../tela_de_login_modo_claro_screen/widgets/slidertype_item_widget.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:sol_s_application1/core/app_export.dart';
-import 'package:sol_s_application1/widgets/app_bar/appbar_iconbutton.dart';
-import 'package:sol_s_application1/widgets/app_bar/appbar_subtitle.dart';
-import 'package:sol_s_application1/widgets/app_bar/custom_app_bar.dart';
+import 'package:suntask_front/core/app_export.dart';
+import 'package:suntask_front/widgets/app_bar/appbar_iconbutton.dart';
+import 'package:suntask_front/widgets/app_bar/appbar_subtitle.dart';
+import 'package:suntask_front/widgets/app_bar/custom_app_bar.dart';
 
 // ignore_for_file: must_be_immutable
 class TelaDeLoginModoClaroScreen extends StatelessWidget {
