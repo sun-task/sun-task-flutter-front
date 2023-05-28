@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sol_s_application1/core/app_export.dart';
-import 'package:sol_s_application1/widgets/custom_icon_button.dart';
+import 'package:suntask_front/core/app_export.dart';
+import 'package:suntask_front/widgets/custom_icon_button.dart';
 
 // ignore: must_be_immutable
 class AppbarIconbutton extends StatelessWidget {
