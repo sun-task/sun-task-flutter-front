@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sol_s_application1/presentation/tela_de_login_modo_claro_screen/tela_de_login_modo_claro_screen.dart';
-import 'package:sol_s_application1/presentation/login_com_o_google_screen/login_com_o_google_screen.dart';
-import 'package:sol_s_application1/presentation/cadastro_modo_claro_screen/cadastro_modo_claro_screen.dart';
-import 'package:sol_s_application1/presentation/agradecemospeloseucadastro_screen/agradecemospeloseucadastro_screen.dart';
-import 'package:sol_s_application1/presentation/cadastrousername_screen/cadastrousername_screen.dart';
-import 'package:sol_s_application1/presentation/tela_inicial_modo_claro_one_screen/tela_inicial_modo_claro_one_screen.dart';
-import 'package:sol_s_application1/presentation/app_navigation_screen/app_navigation_screen.dart';
+import 'package:suntask_front/presentation/tela_de_login_modo_claro_screen/tela_de_login_modo_claro_screen.dart';
+import 'package:suntask_front/presentation/login_com_o_google_screen/login_com_o_google_screen.dart';
+import 'package:suntask_front/presentation/cadastro_modo_claro_screen/cadastro_modo_claro_screen.dart';
+import 'package:suntask_front/presentation/agradecemospeloseucadastro_screen/agradecemospeloseucadastro_screen.dart';
+import 'package:suntask_front/presentation/cadastrousername_screen/cadastrousername_screen.dart';
+import 'package:suntask_front/presentation/tela_inicial_modo_claro_one_screen/tela_inicial_modo_claro_one_screen.dart';
+import 'package:suntask_front/presentation/app_navigation_screen/app_navigation_screen.dart';
 
 class AppRoutes {
   static const String telaDeLoginModoClaroScreen =
