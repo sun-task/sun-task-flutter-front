@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sol_s_application1/core/app_export.dart';
+import 'package:suntask_front/core/app_export.dart';
 
 class AppStyle {
   static TextStyle txtPoppinsMedium12Gray900 = TextStyle(
