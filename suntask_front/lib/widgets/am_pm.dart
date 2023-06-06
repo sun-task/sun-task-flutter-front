@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class MyHours extends StatelessWidget {
-  int hours;
+class AmPm extends StatelessWidget {
+  final bool isItAm;
 
-  MyHours({required this.hours});
+  AmPm({required this.isItAm});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class MyHours extends StatelessWidget {
       child: Container(
         child: Center(
           child: Text(
-            hours.toString(),
+            isItAm == true ? 'am' : 'pm',
             style: TextStyle(
               fontSize: 40,
               color: Colors.white,
@@ -24,18 +24,3 @@ class MyHours extends StatelessWidget {
     );
   }
 }
-
-
-
-// import 'package:flutter/material.dart';
-
-// class ScrollHours extends StatelessWidget {
-  
-//   int hours;
-//   ScrollHours(this.hours);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return const Placeholder();
-//   }
-// }
